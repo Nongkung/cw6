@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    width: 800px;
+    height: 800px;
+    border:2px solid black;
+}
+
+.items{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container{
+    display: flex;
+    align-items: flex-end ;
+}
